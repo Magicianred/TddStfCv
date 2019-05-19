@@ -42,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BowlingRolls.cs" />
+    <Compile Include="BowlingScore.cs" />
+    <Compile Include="IBowlingScore.cs" />
+    <Compile Include="InvalidScore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roll.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
